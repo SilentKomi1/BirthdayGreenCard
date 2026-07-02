@@ -429,9 +429,9 @@ class BirthdayCardServer(BaseHTTPRequestHandler):
             <script>
                 // FIXED: Moonlight now properly has its .mp3 extension mapping
                 const playlist = [
-                    { src: "/out_getting_ribs.mp3", cover: "/cover1.jpg", title: "Out Getting Ribs", artist: "Feeling Blew" },
-                    { src: "/moonlight.mp3", cover: "/cover3.jpg", title: "Moonlight", artist: "Chase Atlantic" },
-                    { src: "/calla.mp3", cover: "/cover2.jpg", title: "Calla", artist: "wave to earth" }
+                    { src: "out_getting_ribs.mp3", cover: "cover1.jpg", title: "Out Getting Ribs", artist: "Feeling Blew" },
+                    { src: "moonlight.mp3", cover: "cover3.jpg", title: "Moonlight", artist: "Chase Atlantic" },
+                    { src: "calla.mp3", cover: "cover2.jpg", title: "Calla", artist: "wave to earth" }
                 ];
                 
                 let currentTrackIndex = 0;
